@@ -1,7 +1,7 @@
 @media (max-width: 2560px) and (min-width: 1440px){
     .div1{
         width:100%;
-        height:900px;
+        height:758px;
         background-size:cover;
         position:relative;
     }
@@ -23,7 +23,7 @@
 @media (max-width: 1024px) and (min-width: 846px){
     .div1{
         width:100%;
-        height:700px;
+        height:758px;
         background-size:cover;
         position:relative;
     }
@@ -42,10 +42,10 @@
 .div1{
     background-image: url("./assets/images/banner-bg.jpg");
     background-repeat: no-repeat;
-    background-size:100%;
-    background-position: top;
+    background-size:cover;
+    background-position: center;
     position:relative;
-    display: block;
+    
 
 }
 .banner-content .banner-text h1{
@@ -57,4 +57,12 @@
     top:20%;
     left:12%;
     position:relative;
+    display: flex;
+}
+.banner-text p{
+    margin:auto;
+    width:475px;
+}
+img{
+    overflow-clip-margin: content-box;
 }
